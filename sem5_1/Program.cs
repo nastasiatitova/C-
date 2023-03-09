@@ -139,7 +139,7 @@ return false;
 
 
 //35 - Задайте одномерный массив из 123 случайных чисел. //Найдите количество элементов массива, значения которых лежат в отрезке [10,99]
-// + 
+/* + 
 int [] GetArray()
 {
     int[] array = new int[12];
@@ -166,23 +166,23 @@ return count;
 
 Console.WriteLine(String.Join(" ", newarray));
 int cou = Count();
-Console.WriteLine("Количество чисел из диапозона 10/99 " + "- " + cou);
+Console.WriteLine("Количество чисел из диапозона 10/99 " + "- " + cou);*/
 
 
 //36 +
-/*
+
 int [] GetArray()
 {
-    int[] array = new int[11];
+    int[] array = new int[5];
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = new Random().Next(0, 150);
+        array[i] = new Random().Next(0, 10);
     }
     return array;
 }
 int[] newArray = GetArray();
 
-int MultInd(int[] newArray)
+int[] MultInd(int[] newArray)
 {
    int num = newArray.Length/2;
 if (newArray.Length %2==1)
@@ -198,5 +198,5 @@ return smolArray;
 }
 Console.WriteLine(String.Join(" ", newArray));
 Console.WriteLine(String.Join(" ", MultInd(newArray)));
-*/
+
 
